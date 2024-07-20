@@ -41,11 +41,11 @@ const Header = () => {
         <div className="md:hidden container flex w-[50vw] items-center justify-end relative">
           <FontAwesomeIcon name="menu" icon={faBars} className="md:hidden w-[40vw] text-[10vw]" onClick={handleToggleMenu} />
           <div
-            className={`container absolute bottom-[-47vw] right-[0vw] bg-gray-600 w-[30vw]  justify-items-center ${isMenuVisible ? 'block' : 'hidden'}`}
+            className={`container absolute bottom-[-47vw] right-[0vw] bg-black w-[30vw]  justify-items-center ${isMenuVisible ? 'block' : 'hidden'}`}
             data-aos={isMenuVisible ? 'fade-down' : 'fade-up'}  // Aquí agregamos el atributo data-aos
             data-aos-duration="1000" // Duración opcional para la animación
           >
-            <ul className="container md:flex md:flex-row-reverse md:w-[100vw]">
+            <ul className="container flex flex-col-reverse md:w-[100vw]">
               <li className="p-[3vw] text-[4vw]">Nosotros</li>
               <li className="p-[3vw] text-[4vw]">Catálogo</li>
               <li className="p-[3vw] text-[4vw]">Servicios</li>
