@@ -29,15 +29,15 @@ function App() {
   });
   }, []);
   return (<>
-    <div className='container h-[13vh] relative z-10'>
+    <div className='container h-[24vh] relative z-10'>
       <Header>
       </Header>
     </div>
     <main className="container grid relative justify-center items-center content-center" >
-        <div className="flex items-center justify-center w-[60vw] ">
-          <Carrousel autoslide={true} autoslideInterval={2000}>
+        <div className="flex items-center justify-center md:w-[30vw]  w-[50vw]">
+          <Carrousel autoslide={true} autoslideInterval={2000} > 
             {slides.map((s)=>(
-              <img src={s} />
+              <img loading="lazy" src={s} className="md:object-content  md:h-[60vh] h-[30vh]" />
             ))}
           </Carrousel>
         </div>
