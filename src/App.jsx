@@ -7,6 +7,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import axios from "axios"
 import Carrousel from "./components/carrousel";
+import "./components/catalogo";
+import Catalogo from "./components/catalogo";
+import Footer from "./components/footer";
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
@@ -41,7 +44,14 @@ function App() {
             ))}
           </Carrousel>
         </div>
-      </main></>
+        <div className="grid justify-items-center gap-1">
+            <Catalogo>
+
+            </Catalogo>
+        </div>
+      </main>
+      <Footer></Footer>
+      </>
   )
 }
 
