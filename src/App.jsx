@@ -13,7 +13,7 @@ import Footer from "./components/footer";
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
-  "/src/assets/image_processing20201110-4-18n6g9t.jpg",
+  "/src/assets/image.png"
 ]
 function App() {
  const [count, setCount] = useState(0);
@@ -40,7 +40,7 @@ function App() {
         <div className="flex items-center justify-center md:w-[30vw]  w-[50vw]">
           <Carrousel autoslide={true} autoslideInterval={2000} > 
             {slides.map((s)=>(
-              <img loading="lazy" src={s} className="md:object-content  md:h-[60vh] h-[30vh]" />
+              <img loading="lazy" src={s} className="md:object-content  md:h-[50vh] md:w-[40vw] h-[30vh]" />
             ))}
           </Carrousel>
         </div>
@@ -50,7 +50,8 @@ function App() {
             </Catalogo>
         </div>
       </main>
-      <Footer></Footer>
+     <div className="container"><Footer></Footer></div>
+     
       </>
   )
 }

@@ -1,7 +1,7 @@
 
 const Footer=()=>{
     return(
-        <div className="bg-black w-[100vw] h-[20vh] "></div>
+        <div className="container bg-black flex flex-row ">sasaaus</div>
     )
 }
 export default Footer
