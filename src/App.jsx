@@ -9,6 +9,7 @@ import axios from "axios"
 import Carrousel from "./components/carrousel";
 import "./components/catalogo";
 import Catalogo from "./components/catalogo";
+import Promo from "./components/aditional";
 import Footer from "./components/footer";
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
@@ -36,18 +37,22 @@ function App() {
       <Header>
       </Header>
     </div>
-    <main className="container grid relative justify-center items-center content-center" >
-        <div className="flex items-center justify-center md:w-[30vw]  w-[50vw]">
+    <main className="container grid relative  items-center content-center gap-2" >
+        <div className="flex items-center justify-self-center lg:w-[50vw] ">
           <Carrousel autoslide={true} autoslideInterval={2000} > 
             {slides.map((s)=>(
-              <img loading="lazy" src={s} className="md:object-content  md:h-[50vh] md:w-[40vw] h-[30vh]" />
+              <img loading="lazy" src={s} className="md:object-content  lg:w-[100vw]" />
             ))}
           </Carrousel>
+        </div>
+        <div className="">
+          <Promo></Promo>
         </div>
         <div className="grid justify-items-center gap-1">
             <Catalogo>
 
             </Catalogo>
+
         </div>
       </main>
      <div className="container"><Footer></Footer></div>

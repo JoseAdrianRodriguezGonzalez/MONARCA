@@ -6,8 +6,8 @@ export default {
       screens:{
         'sm':'200px',
         'md':'600px',
-        'lg':'1024',
-        'xl':'2048'
+        'lg':'900px',
+        'xl':'2048px'
       }
     },
   },
