@@ -66,7 +66,9 @@ const Catalogo=()=>{
             <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">FABRICACION DE PIEZAS ESPECIALES</span>
         </div>
        </section>
-
+       <div className="w-[30vw] h-[12vh] bg-black rounded-lg flex justify-center items-center m-1">
+           <h2 className=" md:text-[2.5vw] text-[4vw]">Linea Procova</h2>
+       </div>
         </>
     );
 }
