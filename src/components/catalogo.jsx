@@ -1,13 +1,9 @@
+import Box from './../libs/box'
 const Catalogo=()=>{
     return(
-        <>
-       <div className="w-[30vw] h-[12vh] bg-black rounded-lg flex justify-center items-center m-1">
-            <h1 className=" md:text-[3.5vw] text-[5vw]">Catalogo</h1>
-
-       </div>
-       <div className="w-[30vw] h-[12vh] bg-black rounded-lg flex justify-center items-center m-1">
-           <h2 className=" md:text-[2.5vw] text-[4vw]">Linea Monarca</h2>
-       </div>
+    <>
+       <Box text='Línea Catalogo'></Box>
+       <Box text='Línea Monarca'></Box>        
        <section className="grid grid-cols-3 gap-1 text-[2vw] w-[70vw]">
         <div className=" relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/Sillar/Portada-Sillar.png" alt="" className="w-[30vw]"/>
@@ -66,9 +62,46 @@ const Catalogo=()=>{
             <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">FABRICACION DE PIEZAS ESPECIALES</span>
         </div>
        </section>
-       <div className="w-[30vw] h-[12vh] bg-black rounded-lg flex justify-center items-center m-1">
-           <h2 className=" md:text-[2.5vw] text-[4vw]">Linea Procova</h2>
-       </div>
+       <Box text='Línea Procova'></Box>
+       <section  className="grid grid-cols-3 gap-1 text-[2vw] w-[70vw]">
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/Block_hueco/Block_hueco.png" alt=""className="w-[30vw]" />
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block hueco</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/Block_ligero.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block ligero</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/block_solido.png" alt=""className="w-[30vw]" />
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block solido</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/tabicón.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Tabicón</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/block_cara_de_piedra.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block decorativo</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/adoquines_bicapa.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Adoquines bicapa</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/Casetón.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Casetón</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/bovedilla.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Bovedilla</span>
+        </div>
+        <div className="relative flex items-center justify-center p-[1vw]">
+            <img src="./src/assets/procova/moldura.png" alt="" className="w-[30vw]"/>
+            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Molduras</span>
+        </div>
+
+       </section>
         </>
     );
 }
