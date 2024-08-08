@@ -32,6 +32,7 @@ const Header = () => {
         </div>
         <div className="container md:flex md:flex-col-reverse md:w-1/2 md:visible hidden">
           <ul className="container md:flex md:flex-row-reverse md:w-[48vw] md:visible hidden">
+            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Portafolio</li> 
             <li className="pl-[1.8vw] pb-[0.3vw] text-[1.8vw]">Nosotros</li>
             <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Catálogo</li>
             <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Servicios</li>
@@ -41,11 +42,12 @@ const Header = () => {
         <div className="md:hidden container flex w-[50vw] items-center justify-end relative">
           <FontAwesomeIcon name="menu" icon={faBars} className="md:hidden w-[40vw] text-[10vw]" onClick={handleToggleMenu} />
           <div
-            className={`container absolute bottom-[-47vw] right-[0vw] bg-black w-[30vw]  justify-items-center ${isMenuVisible ? 'block' : 'hidden'}`}
+            className={`container absolute bottom-[-60vw] right-[0vw] bg-black w-[30vw]  justify-items-center ${isMenuVisible ? 'block' : 'hidden'}`}
             data-aos={isMenuVisible ? 'fade-down' : 'fade-up'}  // Aquí agregamos el atributo data-aos
             data-aos-duration="1000" // Duración opcional para la animación
           >
             <ul className="container flex flex-col-reverse md:w-[100vw]">
+              <li className="p-[3vw] text-[4vw]">Portafolio</li>
               <li className="p-[3vw] text-[4vw]">Nosotros</li>
               <li className="p-[3vw] text-[4vw]">Catálogo</li>
               <li className="p-[3vw] text-[4vw]">Servicios</li>
