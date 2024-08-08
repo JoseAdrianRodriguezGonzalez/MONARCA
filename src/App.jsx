@@ -12,11 +12,20 @@ import Catalogo from "./components/catalogo";
 import Promo from "./components/aditional";
 import Footer from "./components/footer";
 import Box from "./libs/box";
+import Comments from "./components/comments";
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
   "/src/assets/image.png"
 ]
+const commentsValues = [
+  { nombre: "Juan Pablo", lugar: 'Salamanca', descripcion: "Excelentes productos de calidad y fidelidad" },
+  { nombre: "Ignacio Razo", lugar: 'Valle de Santiago', descripcion: "Sin lugar a dudas, volvería a comprar productos Monarca" },
+  { nombre: "Pedro Martinez", lugar: 'Celaya', descripcion: "He cumplido mi sueño de hohar y ahora puedo dejar a mis hijos un mejor lugar para vivir" },
+];
+
+
+
 function App() {
  const [count, setCount] = useState(0);
  const  [array,setArray] =useState([]);
@@ -55,11 +64,16 @@ function App() {
             </Catalogo>
 
         </div>
-        <div className="">
-          comentarion
+        <div className="container grid grid-flow-col  ">
+        <Comments  nombre={commentsValues[0].nombre} lugar={commentsValues[0].lugar} descripcion={commentsValues[0].descripcion} >
+        </Comments>
+        <Comments  nombre={commentsValues[1].nombre} lugar={commentsValues[1].lugar} descripcion={commentsValues[1].descripcion} >
+        </Comments>
+        <Comments  nombre={commentsValues[2].nombre} lugar={commentsValues[2].lugar} descripcion={commentsValues[2].descripcion} >
+        </Comments>
         </div>
-        <div className="">
-          sucursales
+        <div className="container grid justify-center mt-[10vw]">
+          <Box text={'Sucursales'}></Box>
         </div>
       </main>
      <div className="container"><Footer></Footer></div>
