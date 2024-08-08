@@ -13,6 +13,7 @@ import Promo from "./components/aditional";
 import Footer from "./components/footer";
 import Box from "./libs/box";
 import Comments from "./components/comments";
+import Sucursales from "./components/sucursales";
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
@@ -72,8 +73,9 @@ function App() {
         <Comments  nombre={commentsValues[2].nombre} lugar={commentsValues[2].lugar} descripcion={commentsValues[2].descripcion} >
         </Comments>
         </div>
-        <div className="container grid justify-center mt-[10vw]">
+        <div className="container grid justify-center place-items-center mt-[10vw] mb-[10vw] gap-[5vw]">
           <Box text={'Sucursales'}></Box>
+          <Sucursales></Sucursales>
         </div>
       </main>
      <div className="container"><Footer></Footer></div>
