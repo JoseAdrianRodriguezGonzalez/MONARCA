@@ -46,7 +46,7 @@ const Catalogo=()=>{
             <span className="flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70 ">PIEDRA BOLA<br></br> MARMOL</span>
         </div>
         <div className="relative flex items-center justify-center w-[26vw] p-[1vw]">
-            <img src="/src/assets/PiedraLaja/Portada.png" alt="" className="h-[50vh] w-[50vw]"/>
+            <img src="/src/assets/PiedraLaja/Portada.png" alt="" className="md:h-[50vh] h-[20vh] w-[50vw]"/>
             <span className="flex absolute p-[1vw] bg-black rounded-xl   bg-black/70 ">PIEDRA LAJA <br></br> IRREGULAR</span>
         </div>
         <div className="col-span-2 relative flex items-center justify-center p-[1vw]">

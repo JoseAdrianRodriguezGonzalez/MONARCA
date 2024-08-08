@@ -11,6 +11,7 @@ import "./components/catalogo";
 import Catalogo from "./components/catalogo";
 import Promo from "./components/aditional";
 import Footer from "./components/footer";
+import Box from "./libs/box";
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
@@ -53,6 +54,12 @@ function App() {
 
             </Catalogo>
 
+        </div>
+        <div className="">
+          comentarion
+        </div>
+        <div className="">
+          sucursales
         </div>
       </main>
      <div className="container"><Footer></Footer></div>
