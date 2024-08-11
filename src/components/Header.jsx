@@ -3,7 +3,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Link } from "react-router-dom";
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
@@ -24,6 +24,7 @@ const Header = () => {
   };
 
   return (
+    
     <div className="container bg-black flex flex-row">
       <nav className="container flex flex-row">
         <div className="container w-1/2 flex flex-row items-center">
@@ -32,11 +33,11 @@ const Header = () => {
         </div>
         <div className="container md:flex md:flex-col-reverse md:w-1/2 md:visible hidden">
           <ul className="container md:flex md:flex-row-reverse md:w-[48vw] md:visible hidden">
-            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Portafolio</li> 
-            <li className="pl-[1.8vw] pb-[0.3vw] text-[1.8vw]">Nosotros</li>
-            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Catálogo</li>
-            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Servicios</li>
-            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]">Inicio</li>
+            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]"><Link to='/Portafolio'>Portafolio</Link></li> 
+            <li className="pl-[1.8vw] pb-[0.3vw] text-[1.8vw]"><Link to='/hola'>Nosotros</Link></li>
+            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]"><Link to='/catalogo'>Catálogo</Link></li>
+            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]"><Link to='/servicios'>Servicios</Link></li>
+            <li className="pl-[1.8vw] pb-[0.3vw] pr-[1.8vw] text-[1.8vw]"><Link to='/'>Inicio</Link></li>
           </ul>
         </div>
         <div className="md:hidden container flex w-[50vw] items-center justify-end relative">
@@ -47,16 +48,17 @@ const Header = () => {
             data-aos-duration="1000" // Duración opcional para la animación
           >
             <ul className="container flex flex-col-reverse md:w-[100vw]">
-              <li className="p-[3vw] text-[4vw]">Portafolio</li>
-              <li className="p-[3vw] text-[4vw]">Nosotros</li>
-              <li className="p-[3vw] text-[4vw]">Catálogo</li>
-              <li className="p-[3vw] text-[4vw]">Servicios</li>
-              <li className="p-[3vw] text-[4vw]">Inicio</li>
+              <li className="p-[3vw] text-[4vw]"><Link to='/Portafolio'>Portafolio</Link></li>
+              <li className="p-[3vw] text-[4vw]"><Link to='/hola'>Nosotros</Link></li>
+              <li className="p-[3vw] text-[4vw]"><Link to='/catalogo'>Catálogo</Link></li>
+              <li className="p-[3vw] text-[4vw]"><Link to='/servicios'>Servicios</Link></li>
+              <li className="p-[3vw] text-[4vw]"><Link to='/'>Inicio</Link></li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
+    
   );
 };
 
