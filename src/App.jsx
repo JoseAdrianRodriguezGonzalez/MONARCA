@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import "./components/Header"
 import './App.css'
-import { useEffect,useState } from 'react';
+import { useEffect,useState, } from 'react';
 import Header from './components/Header'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -14,6 +14,8 @@ import Footer from "./components/footer";
 import Box from "./libs/box";
 import Comments from "./components/comments";
 import Sucursales from "./components/sucursales";
+import { Routes,Route, useLocation  } from "react-router-dom";
+import Nosotros from "./pages/Nosotros"
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
@@ -28,6 +30,7 @@ const commentsValues = [
 
 
 function App() {
+  const location = useLocation();
  const [count, setCount] = useState(0);
  const  [array,setArray] =useState([]);
  const fetchAPI=async()=>{
@@ -44,11 +47,13 @@ function App() {
   });
   }, []);
   return (<>
+  <div className="flex flex-col min-h-screen">
     <div className='container h-[24vh] relative z-10'>
-      <Header>
-      </Header>
+    <Header></Header>
     </div>
-    <main className="container grid relative  items-center content-center gap-2" >
+    <div className="flex-grow">
+      <Routes>
+        <Route path="/" element={<main className="container grid relative  items-center content-center gap-2" >
         <div className="flex items-center justify-self-center lg:w-[50vw] ">
           <Carrousel autoslide={true} autoslideInterval={2000} > 
             {slides.map((s)=>(
@@ -77,9 +82,13 @@ function App() {
           <Box text={'Sucursales'}></Box>
           <Sucursales></Sucursales>
         </div>
-      </main>
+      </main>}></Route>
+        <Route path="hola" element={<Nosotros></Nosotros>}></Route>
+      </Routes>
+    
+    </div>
      <div className="container"><Footer></Footer></div>
-     
+     </div>
       </>
   )
 }
