@@ -12,7 +12,7 @@ const Nosotros =()=>{
             </div>
         <section className="text-black text-[2vw] grid grid-cols-1 md:grid-cols-3 gap-[2vw] p-[2vw]">
             <div className="flex flex-col bg-black/70 p-[2vw] rounded-2xl">
-                <FontAwesomeIcon icon={faTree} className="text-[7vw] text-white"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faTree} className="text-[7vw] text-white"></FontAwesomeIcon> 
                 <div className="md:text-[1.4vw] text-[4vw] md:p-[1vw] p-[2vw]  text-white">
                 Nos dedicamos a construir sueños que se integran armoniosamente con la naturaleza. Nuestra pasión por la construcción va más allá de crear estructuras; nos esforzamos por diseñar espacios que reflejen belleza, sostenibilidad y confort.
                 </div>

@@ -61,44 +61,45 @@ const Catalogo=()=>{
             <img src="/src/assets/Fabricaciones/Portada.png" alt="" className="w-[42vw]"/>
             <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">FABRICACION DE PIEZAS ESPECIALES</span>
         </div>
-       </section>
-       <Box text='Línea Procova'></Box>
-       <section  className="grid grid-cols-3 gap-[2vw] text-[2vw] w-[70vw]">
-        <div className="relative flex items-center justify-center p-[1vw] bg-[#3f3b3b] rounded-xl">
+       </section> 
+       <div className="w-[25vw] h-[12vh] bg-blue-950 rounded-[3vw] flex justify-center items-center m-1">
+            <h2 className=" md:text-[2.5vw] text-[4vw]">Línea Pro<span className='text-[#f00]'>c</span>ova</h2>
+        </div>       <section  className="grid grid-cols-3 gap-[2vw] text-[2vw] w-[70vw]">
+        <div className=" flex flex-col items-center justify-center p-[1vw]  rounded-xl">
             <img src="./src/assets/procova/Block_hueco/Block_hueco.png" alt=""className="w-[30vw]" />
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block hueco</span>
+            <span className='flex  p-[1vw] text-[#000]'>Block hueco</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className=" flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/Block_ligero.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block ligero</span>
+            <span className='flex  p-[1vw] text-[#000]'>Block ligero</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className=" flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/block_solido.png" alt=""className="w-[30vw]" />
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block solido</span>
+            <span className='flex p-[1vw] text-[#000]'>Block solido</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className=" flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/tabicón.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Tabicón</span>
+            <span className='flex  p-[1vw] text-[#000]'>Tabicón</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className="flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/block_cara_de_piedra.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Block decorativo</span>
+            <span className='flex  p-[1vw] text-[#000]'>Block decorativo</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className="flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/adoquines_bicapa.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Adoquines bicapa</span>
+            <span className='flex  p-[1vw] text-[#000]'>Adoquines bicapa</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className=" flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/Casetón.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Casetón</span>
+            <span className='flex  p-[1vw] text-[#000]'>Casetón</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className=" flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/bovedilla.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Bovedilla</span>
+            <span className='flex  p-[1vw] text-[#000]'>Bovedilla</span>
         </div>
-        <div className="relative flex items-center justify-center p-[1vw]  bg-[#3f3b3b] rounded-xl">
+        <div className=" flex flex-col items-center justify-center p-[1vw]   rounded-xl">
             <img src="./src/assets/procova/moldura.png" alt="" className="w-[30vw]"/>
-            <span className='flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70'>Molduras</span>
+            <span className='flex  p-[1vw] text-[#000]'>Molduras</span>
         </div>
 
        </section>
