@@ -1,4 +1,6 @@
 import Box from './../libs/box'
+import { Link } from "react-router-dom";
+
 const Catalogo=()=>{
     return(
     <>
@@ -7,7 +9,7 @@ const Catalogo=()=>{
        <section className="grid grid-cols-3 gap-1 text-[2vw] w-[70vw]">
         <div className=" relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/Sillar/Portada-Sillar.png" alt="" className="w-[30vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 " >SILLAR</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 " ><Link to='/sillar'>SILLAR</Link> </span>
         </div>
         <div className="relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/Cubierta/Portada.png " alt="" className="w-[30vw]"/>
@@ -103,6 +105,7 @@ const Catalogo=()=>{
         </div>
 
        </section>
+       <Route></Route>
         </>
     );
 }

@@ -5,7 +5,6 @@ import { useEffect,useState, } from 'react';
 import Header from './components/Header'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import axios from "axios"
 import Carrousel from "./components/carrousel";
 import "./components/catalogo";
 import Catalogo from "./components/catalogo";
@@ -16,6 +15,7 @@ import Comments from "./components/comments";
 import Sucursales from "./components/sucursales";
 import { Routes,Route, useLocation  } from "react-router-dom";
 import Nosotros from "./pages/Nosotros"
+import Sillar from './models/sillar';
 const slides=[
   "/src/assets/Fachaletas-6.jpg",
   "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
@@ -33,13 +33,7 @@ function App() {
   const location = useLocation();
  const [count, setCount] = useState(0);
  const  [array,setArray] =useState([]);
- const fetchAPI=async()=>{
-  const response=await axios.get("http://localhost:8080");
-  console.log(response.data.fruits);
- }
- useEffect(()=>{
-  fetchAPI();
- },[]);
+ 
  useEffect(() => {
   
   AOS.init({
@@ -84,6 +78,7 @@ function App() {
         </div>
       </main>}></Route>
         <Route path="hola" element={<Nosotros></Nosotros>}></Route>
+        <Route path="sillar" element={<Sillar></Sillar>}></Route>
       </Routes>
     
     </div>
