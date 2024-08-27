@@ -105,7 +105,7 @@ const Catalogo=()=>{
         </div>
 
        </section>
-       <Route></Route>
+
         </>
     );
 }

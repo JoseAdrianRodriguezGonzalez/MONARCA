@@ -14,18 +14,27 @@ const connection = mysql.createConnection({
   password: '',
   database: 'monarca'
 })
-
 connection.connect()
 //PERMITE LAS CONEXIÓN DE REACT
 app.use(cors(corsOption))
+
+
+
+
 //OBTIENES ESE VALOR
-app.get('/sillar',(req,res)=>{
+app.get('/:nombre?',(req,res)=>{
     //HACES UN QUERY SELECT
-connection.query('SELECT * FROM `sillar` WHERE 1', (err, rows, fields) => {
+    const {nombre}=req.params;
+    console.log('Product Name:', nombre);
+    const query = `SELECT * FROM \`${nombre}\` WHERE 1`; 
+    console.log('Query:', query);
+connection.query(query, (err, rows) => {
     if (err) {
+        console.error('Error en la base de datos:', err);
         res.status(500).send('Error en la base de datos');
         return;
       }
+
       res.json(rows);
     });
 })//MONTAS EL SERVIDOR

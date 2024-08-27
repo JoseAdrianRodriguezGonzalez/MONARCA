@@ -78,7 +78,7 @@ function App() {
         </div>
       </main>}></Route>
         <Route path="hola" element={<Nosotros></Nosotros>}></Route>
-        <Route path="sillar" element={<Sillar></Sillar>}></Route>
+        <Route path="/:productName" element={<Sillar></Sillar>}></Route>
       </Routes>
     
     </div>
