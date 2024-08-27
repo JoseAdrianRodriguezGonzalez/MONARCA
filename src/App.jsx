@@ -45,9 +45,9 @@ function App() {
     <div className='container h-[24vh] relative z-10'>
     <Header></Header>
     </div>
-    <div className="flex-grow">
+    <div className="flex-grow ">
       <Routes>
-        <Route path="/" element={<main className="container grid relative  items-center content-center gap-2" >
+        <Route path="/" element={<main className="container grid relative m-0 items-center content-center gap-2" >
         <div className="flex items-center justify-self-center lg:w-[50vw] ">
           <Carrousel autoslide={true} autoslideInterval={2000} > 
             {slides.map((s)=>(
@@ -77,8 +77,8 @@ function App() {
           <Sucursales></Sucursales>
         </div>
       </main>}></Route>
-        <Route path="hola" element={<Nosotros></Nosotros>}></Route>
-        <Route path="/:productName" element={<Sillar></Sillar>}></Route>
+        <Route path="hola" element={<div className="container mt-[10vw]"><Nosotros></Nosotros></div>}></Route>
+        <Route path="/:productName" element={<div className="container mt-[2vw] grid grid-flow-row justify-center mb-[1vw]"><Sillar></Sillar></div>}></Route>
       </Routes>
     
     </div>
