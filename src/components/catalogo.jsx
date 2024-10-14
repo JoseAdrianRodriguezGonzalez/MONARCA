@@ -21,11 +21,11 @@ const Catalogo=()=>{
         </div>
         <div className=" relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/Muros_llorones/Portada.png" alt="" loading="lazy"  className="w-[30vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">MUROS LLORONES</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to='/muro_lloron'>MUROS LLORONES</Link></span>
         </div>
         <div className=" row-start-1  col-start-1 relative flex items-center p-[1vw] justify-center">
             <img src="/src/assets/Fuentes/Portada.png" alt="" loading="lazy"  className="w-[20vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/60 " >FUENTES</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/60 " ><Link to='/fuentes'>FUENTES</Link></span>
         </div>
         <div className="row-start-5 relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/pegadores/Portada.png" alt="" loading="lazy"  className="w-[40vw]"/>
@@ -37,7 +37,7 @@ const Catalogo=()=>{
         </div>
         <div className="row-start-2 col-start-1 col-span-2 relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/Cantera/Portada.jpg" alt="" loading="lazy"  className="w-[50vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">CANTERA</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to='/cantera'>CANTERA</Link></span>
         </div>
         <div className="row-start-3 col-start-1 relative flex items-center justify-center p-[1vw]">
             <img src="/src/assets/Fachaletas/Portada.png" loading="lazy"   alt="" className="w-[30vw]"/>
