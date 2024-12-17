@@ -28,8 +28,8 @@ const Header = () => {
     <div className="container bg-black flex flex-row">
       <nav className="container flex flex-row">
         <div className="container w-1/2 flex flex-row items-center">
-          <img className="h-[12vh] w-[30vw] md:h-[25vh] md:w-[20vw]" loading="lazy" src="/src/assets/MONARCA_BLANCA - copia.png" alt="" />
-          <img className="h-[8vh] w-[40vw] md:h-[8vh] md:w-[30vw]" loading="lazy"src="/src/assets/MONARCA_BLANCA - copia (2).png" alt="" />
+          <img className="h-[12vh] w-[30vw] md:h-[25vh] md:w-[20vw]" loading="lazy" src="./assets/MONARCA_BLANCA - copia.png" alt="" />
+          <img className="h-[8vh] w-[40vw] md:h-[8vh] md:w-[30vw]" loading="lazy"src="./assets/MONARCA_BLANCA - copia (2).png" alt="" />
         </div>
         <div className="container md:flex md:flex-col-reverse md:w-1/2 md:visible hidden">
           <ul className="container md:flex md:flex-row-reverse md:w-[48vw] md:visible hidden">

@@ -8,11 +8,14 @@ const Sillar=()=>{
     useEffect(() => {//PETICION
       // Consumir la API
 
-      fetch(`http://localhost:3001/${productName}`)
+      fetch(`src/assets/monarca.json`)
         .then(response => response.json())
-        .then(data => setData(data))
-        .catch(error => console.log('Error fetching data xdxdd:', error));
-        
+        .then(data => {
+          // Filtrar datos según la categoría especificada en `productName`
+          const sillarData = data.find(table => table.name === productName)?.data || [];
+          setData(sillarData);
+        })
+        .catch(error => console.log('Error fetching data:', error));
     }, [productName]);
     console.log(data)
     return (//COLOCAR DATOS

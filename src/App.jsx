@@ -17,9 +17,9 @@ import { Routes,Route, useLocation  } from "react-router-dom";
 import Nosotros from "./pages/Nosotros"
 import Sillar from './models/sillar';
 const slides=[
-  "/src/assets/Fachaletas-6.jpg",
-  "/src/assets/full_Teja_Tipo_S_Terracota.jpg",
-  "/src/assets/image.png"
+  "./assets/Fachaletas-6.jpg",
+  "./assets/full_Teja_Tipo_S_Terracota.jpg",
+  "./assets/image.png"
 ]
 const commentsValues = [
   { nombre: "Juan Pablo", lugar: 'Salamanca', descripcion: "Excelentes productos de calidad y fidelidad" },

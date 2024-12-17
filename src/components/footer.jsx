@@ -4,7 +4,7 @@ const Footer=()=>{
     return(
         <div className="container bg-black flex flex-row items-center flex-auto">
             <div className="w-1/2 grid ">
-                <img src="/src/assets/MONARCA_BLANCA.png" className="w-[40vw]" alt="" />
+                <img src="./assets/MONARCA_BLANCA.png" className="w-[40vw]" alt="" />
                 <div className="h-[10vh] grid grid-flow-col justify-center gap-[10vw] items-start">
                     <a href="https://www.facebook.com/procova.com.mx" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} className="text-[3vw]" />
