@@ -25,6 +25,7 @@ const Header = () => {
 
   return (
     
+    
     <div className="container bg-black flex flex-row">
       <nav className="container flex flex-row">
         <div className="container w-1/2 flex flex-row items-center">
