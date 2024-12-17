@@ -1,0 +1,96 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"monarca"},
+{"type":"table","name":"adhesivos","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"cantera","database":"monarca","data":
+[
+{"LARGO":"40","ANCHO":"60","GROSOR":"2","NOMBRE":"Café","IMG":".\/src\/assets\/Cantera\/CanteraCafeGalindo.webp"},
+{"LARGO":"40","ANCHO":"60","GROSOR":"2","NOMBRE":"Naranja","IMG":".\/src\/assets\/Cantera\/CanteraAmericaNaranja.webp"},
+{"LARGO":"40","ANCHO":"60","GROSOR":"2","NOMBRE":"Negra","IMG":".\/src\/assets\/Cantera\/CanteraAmericaNegra.webp"},
+{"LARGO":"40","ANCHO":"60","GROSOR":"2","NOMBRE":"Rosa","IMG":".\/src\/assets\/Cantera\/Mexicano.webp"}
+]
+}
+,{"type":"table","name":"celosías","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"fachaleta","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"fuentes","database":"monarca","data":
+[
+{"ALTO":"30","LARGO":"40","ANCHO":"40","IMG":".\/src\/assets\/Fuentes\/fuente1.webp","NOMBRE":"fuente 1"},
+{"ALTO":"40","LARGO":"40","ANCHO":"40","IMG":".\/src\/assets\/Fuentes\/fuente2.webp","NOMBRE":"fuente 2"},
+{"ALTO":"150","LARGO":"70","ANCHO":"70","IMG":".\/src\/assets\/Fuentes\/fuente3.webp","NOMBRE":"fuente 3"},
+{"ALTO":"110","LARGO":"70","ANCHO":"70","IMG":".\/src\/assets\/Fuentes\/fuente4.webp","NOMBRE":"fuente 4"},
+{"ALTO":"60","LARGO":"70","ANCHO":"70","IMG":".\/src\/assets\/Fuentes\/fuente5.webp","NOMBRE":"fuente 5"},
+{"ALTO":"100","LARGO":"70","ANCHO":"70","IMG":".\/src\/assets\/Fuentes\/fuente6.webp","NOMBRE":"fuente 6"},
+{"ALTO":"70","LARGO":"80","ANCHO":"80","IMG":".\/src\/assets\/Fuentes\/fuente7.webp","NOMBRE":"fuente 7"},
+{"ALTO":"30","LARGO":"30","ANCHO":"25","IMG":".\/src\/assets\/Fuentes\/fuente8.webp","NOMBRE":"fuente 8"},
+{"ALTO":"70","LARGO":"60","ANCHO":"60","IMG":".\/src\/assets\/Fuentes\/fuente9.webp","NOMBRE":"fuente 9"},
+{"ALTO":"40","LARGO":"40","ANCHO":"20","IMG":".\/src\/assets\/Fuentes\/fuente10.webp","NOMBRE":"fuente 10"},
+{"ALTO":"60","LARGO":"40","ANCHO":"40","IMG":".\/src\/assets\/Fuentes\/fuente11.webp","NOMBRE":"fuente 11"},
+{"ALTO":"40","LARGO":"30","ANCHO":"20","IMG":".\/src\/assets\/Fuentes\/fuente12.webp","NOMBRE":"fuente 12"},
+{"ALTO":"40","LARGO":"90","ANCHO":"80","IMG":".\/src\/assets\/Fuentes\/fuente13.webp","NOMBRE":"fuente 13"},
+{"ALTO":"40","LARGO":"85","ANCHO":"80","IMG":".\/src\/assets\/Fuentes\/fuente14.webp","NOMBRE":"fuente 14"},
+{"ALTO":"50","LARGO":"40","ANCHO":"25","IMG":".\/src\/assets\/Fuentes\/fuente15.webp","NOMBRE":"fuente 15"},
+{"ALTO":"70","LARGO":"40","ANCHO":"40","IMG":".\/src\/assets\/Fuentes\/Pozo_Chico.webp","NOMBRE":"Pozo 1"},
+{"ALTO":"34","LARGO":"20","ANCHO":"20","IMG":".\/src\/assets\/Fuentes\/Pozo_mediano.webp","NOMBRE":"Pozo 2"},
+{"ALTO":"90","LARGO":"50","ANCHO":"50","IMG":".\/src\/assets\/Fuentes\/Pozo_Grande.webp","NOMBRE":"Pozo 3"}
+]
+}
+,{"type":"table","name":"muro_lloron","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"ovalines","database":"monarca","data":
+[
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Marmol Dorado","IMG":".\/src\/assets\/Cubierta\/MarmolDorado.webp"}
+]
+}
+,{"type":"table","name":"piedra_bola_marmol","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"piedra_laja_irregular","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"piezas_especiales","database":"monarca","data":
+[
+
+]
+}
+,{"type":"table","name":"sillar","database":"monarca","data":
+[
+{"NOMBRE":"Sillar Amarillo","ALTO":"25","LARGO":"45","ANCHO":"19","PESO":"25","COLOR":"Amarillo","IMG":".\/src\/assets\/Sillar\/SillarAmarillo.webp"},
+{"NOMBRE":"Sillar Rosa Claro","ALTO":"25","LARGO":"45","ANCHO":"19","PESO":"35","COLOR":"Rosa Claro","IMG":".\/src\/assets\/Sillar\/SillarRosaClaro.webp"},
+{"NOMBRE":"Sillar Naranja","ALTO":"25","LARGO":"45","ANCHO":"19","PESO":"25","COLOR":"Naranja","IMG":".\/src\/assets\/Sillar\/SillarNaranja.webp"},
+{"NOMBRE":"Sillar Canela Liso","ALTO":"25","LARGO":"45","ANCHO":"19","PESO":"35","COLOR":"Canela Liso","IMG":".\/src\/assets\/Sillar\/SillarCanelaLisa.webp"},
+{"NOMBRE":"Sillar Tabaco","ALTO":"25","LARGO":"45","ANCHO":"19","PESO":"25","COLOR":"Sillar tabaco","IMG":".\/src\/assets\/Sillar\/SillarTabaco.webp"}
+]
+}
+,{"type":"table","name":"tabique_aparente","database":"monarca","data":
+[
+{"ALTO":"6","LARGO":"24","ANCHO":"12","PESO":"1.7","IMG":".\/src\/assets\/Tabique_Aparente\/Vintex_Natural.webp","NOMBRE":"Vintex Natural 6\/12"},
+{"ALTO":"6","LARGO":"24","ANCHO":"12","PESO":"1.7","IMG":".\/src\/assets\/Tabique_Aparente\/Multex.webp","NOMBRE":"Multex Natural 6\/12"},
+{"ALTO":"12","LARGO":"24","ANCHO":"12","PESO":"3.5","IMG":".\/src\/assets\/Tabique_Aparente\/Vintex_Natural.webp","NOMBRE":"Vintex Natural 12\/12"},
+{"ALTO":"12","LARGO":"24","ANCHO":"12","PESO":"3.4","IMG":".\/src\/assets\/Tabique_Aparente\/Multex.webp","NOMBRE":"Multex Natural 12\/12"}
+]
+}
+,{"type":"table","name":"tejas","database":"monarca","data":
+[
+
+]
+}
+]
