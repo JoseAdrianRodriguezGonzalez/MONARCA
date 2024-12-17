@@ -8,7 +8,7 @@ const Sillar=()=>{
     useEffect(() => {//PETICION
       // Consumir la API
 
-      fetch(`src/assets/monarca.json`)
+      fetch(`./assets/monarca.json`)
         .then(response => response.json())
         .then(data => {
           // Filtrar datos según la categoría especificada en `productName`
