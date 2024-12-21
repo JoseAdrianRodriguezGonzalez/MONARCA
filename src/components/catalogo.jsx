@@ -28,8 +28,8 @@ const Catalogo=()=>{
             <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/60 " ><Link to='/fuentes'>FUENTES</Link></span>
         </div>
         <div className="row-start-5 relative flex items-center justify-center p-[1vw]">
-            <img src="./assets/pegadores/Portada.png" alt="" loading="lazy"  className="w-[40vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">ADHESIVOS</span>
+            <img src="./assets/Tejas/TEJA-RECTA.webp" alt="" loading="lazy"  className="w-[40vw]"/>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to='/Teja_individual'>Tejas individuales</Link></span>
         </div>
         <div className="row-start-4 col-start-1 relative flex items-center justify-center p-[1vw]">
             <img src="./assets/pegadores/Pegapiedra.png" loading="lazy"  alt="" className="w-[30vw]"/>
@@ -57,11 +57,11 @@ const Catalogo=()=>{
         </div>
         <div className=" row-start-5  col-start-1 col-span-2 relative flex items-center justify-center p-[1vw]">
             <img src="./assets/Tejas/Portada.jpg" alt="" loading="lazy"  className="w-[40vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">TEJAS</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to="/tejas">TEJAS</Link></span>
         </div>
         <div className="row-start-3 col-start-2 row-span-2 col-span-2 relative flex items-center justify-center p-[1vw]">
             <img src="./assets/Fabricaciones/Portada.png" alt="" loading="lazy"  className="w-[42vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">FABRICACION DE PIEZAS ESPECIALES</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to='/piezas_especiales'>FABRICACION DE PIEZAS ESPECIALES</Link></span>
         </div>
        </section> 
        <div className="w-[25vw] h-[12vh] bg-blue-950 rounded-[3vw] flex justify-center items-center m-1">
