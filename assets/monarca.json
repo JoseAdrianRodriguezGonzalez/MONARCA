@@ -33,7 +33,12 @@
 {"MEDIDA":"5x15cm, 5 y 10 largos libres","COLOR":"Rosa Jaspe","NOMBRE":"Fachaleta Rosa Jaspe","IMG":".\/assets\/Fachaletas\/RosaJaspe.webp"},
 {"MEDIDA":"5x15cm, 5 y 10 largos libres","COLOR":"Travertino Rojo","NOMBRE":"Fachaleta Travertino Rojo","IMG":".\/assets\/Fachaletas\/TravertinoRojo.webp"},
 {"MEDIDA":"5,10 y 20 largos libres","COLOR":"Blanco Piel De Elefante","NOMBRE":"Fachaleta Piel De Elefante","IMG":".\/assets\/Fachaletas\/piel.webp"},
-{"MEDIDA":"5 largos libres","COLOR":"Slate","NOMBRE":"Fachaleta Slate","IMG":".\/assets\/Fachaletas\/slate.webp"}
+{"MEDIDA":"5 largos libres","COLOR":"Slate","NOMBRE":"Fachaleta Slate","IMG":".\/assets\/Fachaletas\/slate.webp"},
+{"MEDIDA":"5x15 cm, 5 y 10 largos libres","COLOR":"Slate pistache","NOMBRE":"Fachaleta Slate pistache","IMG":".\/assets\/Fachaletas\/slate_pistache.webp"},
+{"MEDIDA":"5x15 cm, 5 y 10 largos libres","COLOR":"Slate verde militar","NOMBRE":"Fachaleta Slate verde militar","IMG":".\/assets\/Fachaletas\/slate_verde_militar.webp"},
+{"MEDIDA":"5x15 cm, 5 y 10 largos libres","COLOR":"Slate de madera","NOMBRE":"Fachaleta Slate de madera","IMG":".\/assets\/Fachaletas\/slate_madera.webp"},
+{"MEDIDA":"5x15 cm, 5 y 10 largos libres","COLOR":"Gris","NOMBRE":"Fachaleta Recinto","IMG":".\/assets\/Fachaletas\/recinto.webp"},
+{"MEDIDA":"5x15 cm, 5 y 10 largos libres","COLOR":"Oro","NOMBRE":"Fachaleta Oro viejo","IMG":".\/assets\/Fachaletas\/oro_viejo.webp"}
 ]
 }
 ,{"type":"table","name":"fuentes","database":"monarca","data":
@@ -80,6 +85,14 @@
 }
 ,{"type":"table","name":"piezas_especiales","database":"monarca","data":
 [
+{"NOMBRE":"Esferas de Cantera","IMG":".\/assets\/Fabricaciones\/esferass.webp"},
+{"NOMBRE":"Gargolas de Cantera","IMG":".\/assets\/Fabricaciones\/Gargolas.webp"},
+{"NOMBRE":"Números de Cantera","IMG":".\/assets\/Fabricaciones\/Numeros.webp"},
+{"NOMBRE":"Columnas de Cantera","IMG":".\/assets\/Fabricaciones\/columnas.webp"},
+{"NOMBRE":"Maceta de Cantera","IMG":".\/assets\/Fabricaciones\/Maceta_de_cantera.webp"},
+{"NOMBRE":"Vírgenes de Cantera","IMG":".\/assets\/Fabricaciones\/Virgenes.webp"},
+{"NOMBRE":"Fuentes de Cantera","IMG":".\/assets\/Fabricaciones\/fuentes.webp"},
+{"NOMBRE":"Pechos de Paloma","IMG":".\/assets\/Fabricaciones\/PechoDePaloma.webp"}
 
 ]
 }
@@ -102,7 +115,24 @@
 }
 ,{"type":"table","name":"tejas","database":"monarca","data":
 [
-
+{"NOMBRE":"Portugesa Roja","LARGO":24.5,"ALTO":40.5,"ACABADOS":"Mate","ESPESOR":1.3,"USO":"Techo","PESO":2.7,"IMG":".\/assets\/Tejas\/teja_protugesa.webp"},
+{"NOMBRE":"Santorini Cajeta","LARGO":16,"ALTO":30,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.1,"USO":"Techo","PESO":0.9,"IMG":".\/assets\/Tejas\/teja_Santorini_cajeta.webp"},
+{"NOMBRE":"Santorini Terracota","LARGO":16,"ALTO":30,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.1,"USO":"Techo","PESO":0.9,"IMG":".\/assets\/Tejas\/Santorini_terracota.webp"},
+{"NOMBRE":"Santorini Cristal Esmaltada","LARGO":16,"ALTO":30,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.1,"USO":"Techo","PESO":0.9,"IMG":".\/assets\/Tejas\/cristal_esmaltada.webp"},
+{"NOMBRE":"Santorini Chocolate Esmaltada","LARGO":16,"ALTO":30,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.1,"USO":"Techo","PESO":0.9,"IMG":".\/assets\/Tejas\/Santorini_chocoloate_esmaltada.webp"},
+{"NOMBRE":"Esparta Terracota","LARGO":26,"ALTO":40,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.2,"USO":"Techo","PESO":2.4,"IMG":".\/assets\/Tejas\/terracota.webp"},
+{"NOMBRE":"Esparta Cristal Esmaltada","LARGO":26,"ALTO":40,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.2,"USO":"Techo","PESO":2.4,"IMG":".\/assets\/Tejas\/EspartacristalEsmaltada.webp"},
+{"NOMBRE":"Esparta Chocolate Esmaltada","LARGO":26,"ALTO":40,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.2,"USO":"Techo","PESO":2.4,"IMG":".\/assets\/Tejas\/EspartaChocolateEsmaltada.webp"},
+{"NOMBRE":"Esparta Terracota","LARGO":26,"ALTO":40,"ACABADOS":"Mate y Esmaltado","ESPESOR":1.2,"USO":"Techo","PESO":2.4,"IMG":".\/assets\/Tejas\/CajetaEsmaltada.webp"}
+]
+},{"type":"table","name":"Teja_individual","database":"monarca","data":
+[
+{"NOMBRE":"Recta","LARGO":16.5,"ALTO":40,"ESPESOR":1.2,"PIEZAS":23,"PESO":1.4,"IMG":".\/assets\/Tejas\/TEJA-RECTA.webp"},
+{"NOMBRE":"Ala 30 esmaltada/natural","LARGO":16.6,"ALTO":30,"ESPESOR":1.2,"PIEZAS":26,"PESO":1.1,"IMG":".\/assets\/Tejas\/TEJA-ALA-30.webp"},
+{"NOMBRE":"Ala 36 esmaltada/natural","LARGO":19,"ALTO":36,"ESPESOR":1.2,"PIEZAS":18,"PESO":1.4,"IMG":".\/assets\/Tejas\/ALA-36.webp"},
+{"NOMBRE":"Ala 45 esmaltada/natural","LARGO":28,"ALTO":45,"ESPESOR":1.2,"PIEZAS":10,"PESO":3.0,"IMG":".\/assets\/Tejas\/ALA-45.webp"},
+{"NOMBRE":"Media caña","LARGO":16.5,"ALTO":30,"ESPESOR":1.2,"PIEZAS":32,"PESO":1.150,"IMG":".\/assets\/Tejas\/TEJA-MEDIA-CANA.webp"},
+{"NOMBRE":"Recta","LARGO":16.5,"ALTO":30,"ESPESOR":1.2,"PIEZAS":28,"PESO":1.150,"IMG":".\/assets\/Tejas\/TEJA-GUADALAJARA.webp"}
 ]
 }
 ]
