@@ -3,7 +3,12 @@
 {"type":"database","name":"monarca"},
 {"type":"table","name":"adhesivos","database":"monarca","data":
 [
-
+{"DESCRIPCION":"Excelente para la instalación de piedras y fachaletas como piedra cultivada y natural, cantera, adoquín, laja y mármol. Para uso en interiores y exteriores."
+,"PESO":20,"RENDIMIENTO":"2.5 a 3.5 metros cuadrados","NOMBRE":"Pega Piedra","IMG":".\/assets\/pegadores\/Pegapiedra.webp"},
+{"DESCRIPCION":"Excelente para la instalación de todo tipo de losetas cerámicas, azulejos cerámicos, cantera, azulejos no convencionales y nuevos formatos siempre y cuando el formato por su peso no necesite anclarse."
+,"PESO":20,"RENDIMIENTO":"2 a 4 metros cuadrados","NOMBRE":"Pega Azulejo y Cantera","IMG":".\/assets\/pegadores\/Pegaazulejoycantera.webp"},
+{"DESCRIPCION":"Color Teja natural. mExcelente anclaje a la teja y al sustrato.Perfecto adherencia.Buen tiempo de trabajo.Solo agregue agua, mezcle y listo para usarse."
+,"PESO":20,"RENDIMIENTO":"2 metros cuadrados","NOMBRE":"Pega Teja","IMG":".\/assets\/pegadores\/pegateja.webp"}
 ]
 }
 ,{"type":"table","name":"cantera","database":"monarca","data":
@@ -21,7 +26,14 @@
 }
 ,{"type":"table","name":"fachaleta","database":"monarca","data":
 [
-
+{"MEDIDA":"5x15cm y 5 largos libres","COLOR":"Blanco Bego","NOMBRE":"Fachaleta Blanco Bego","IMG":".\/assets\/Fachaletas\/blancobego.webp"},
+{"MEDIDA":"5x15cm","COLOR":"Arcoíris","NOMBRE":"Fachaleta Arcoíris","IMG":".\/assets\/Fachaletas\/arcoiris.webp"},
+{"MEDIDA":"5x15cm","COLOR":"Dorada","NOMBRE":"Fachaleta Dorada","IMG":".\/assets\/Fachaletas\/dorada.webp"},
+{"MEDIDA":"5x15cm, 5 y 10 largos libres","COLOR":"Fiorito","NOMBRE":"Fachaleta Fiorito","IMG":".\/assets\/Fachaletas\/fiorito.webp"},
+{"MEDIDA":"5x15cm, 5 y 10 largos libres","COLOR":"Rosa Jaspe","NOMBRE":"Fachaleta Rosa Jaspe","IMG":".\/assets\/Fachaletas\/RosaJaspe.webp"},
+{"MEDIDA":"5x15cm, 5 y 10 largos libres","COLOR":"Travertino Rojo","NOMBRE":"Fachaleta Travertino Rojo","IMG":".\/assets\/Fachaletas\/TravertinoRojo.webp"},
+{"MEDIDA":"5,10 y 20 largos libres","COLOR":"Blanco Piel De Elefante","NOMBRE":"Fachaleta Piel De Elefante","IMG":".\/assets\/Fachaletas\/piel.webp"},
+{"MEDIDA":"5 largos libres","COLOR":"Slate","NOMBRE":"Fachaleta Slate","IMG":".\/assets\/Fachaletas\/slate.webp"}
 ]
 }
 ,{"type":"table","name":"fuentes","database":"monarca","data":
