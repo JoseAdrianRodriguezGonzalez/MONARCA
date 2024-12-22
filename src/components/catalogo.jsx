@@ -45,11 +45,11 @@ const Catalogo=()=>{
         </div>
         <div className="  relative flex items-center justify-center p-[1vw]" >
             <img src="./assets/Piedra_Bola_Marmol/Portada.jpg" loading="lazy"  alt="" className="w-[30vw]"/>
-            <span className="flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70 ">PIEDRA BOLA<br></br> MARMOL</span>
+            <span className="flex absolute p-[1vw] bg-black  rounded-xl  bg-black/70 "><Link to='/piedra_bola_marmol'>PIEDRA BOLA<br></br> MARMOL</Link></span>
         </div>
         <div className="relative flex items-center justify-center w-[26vw] p-[1vw]">
             <img src="./assets/PiedraLaja/Portada.png" alt="" loading="lazy"  className="md:h-[50vh] h-[20vh] w-[50vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl   bg-black/70 ">PIEDRA LAJA <br></br> IRREGULAR</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl   bg-black/70 "><Link to="/piedra_laja_irregular">PIEDRA LAJA <br></br> IRREGULAR</Link></span>
         </div>
         <div className="col-span-2 relative flex items-center justify-center p-[1vw]">
             <img src="./assets/Celosías/Portada.png" alt="" loading="lazy"  className="w-[40vw]"/>
