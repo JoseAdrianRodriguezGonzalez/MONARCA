@@ -21,7 +21,12 @@
 }
 ,{"type":"table","name":"celosías","database":"monarca","data":
 [
-
+{"NOMBRE":"C1","LARGO":24,"ANCHO":6,"ALTO":13,"PESO":1.7,"PIEZAS":30,"IMG":".\/assets\/Celosías\/c1.webp"},
+{"NOMBRE":"C2","LARGO":24,"ANCHO":6,"ALTO":12,"PESO":1.430,"PIEZAS":32,"IMG":".\/assets\/Celosías\/c2.webp"},
+{"NOMBRE":"C3","LARGO":24,"ANCHO":6,"ALTO":12,"PESO":1.5,"PIEZAS":32,"IMG":".\/assets\/Celosías\/c3.webp"},
+{"NOMBRE":"C5","LARGO":24,"ANCHO":6,"ALTO":13,"PESO":1.6,"PIEZAS":30,"IMG":".\/assets\/Celosías\/c5.webp"},
+{"NOMBRE":"C10","LARGO":19,"ANCHO":8,"ALTO":19,"PESO":2.2,"PIEZAS":25,"IMG":".\/assets\/Celosías\/c10.webp"},
+{"NOMBRE":"C18","LARGO":19,"ANCHO":8,"ALTO":19,"PESO":2.2,"PIEZAS":25,"IMG":".\/assets\/Celosías\/c18.webp"}
 ]
 }
 ,{"type":"table","name":"fachaleta","database":"monarca","data":
@@ -71,7 +76,12 @@
 }
 ,{"type":"table","name":"ovalines","database":"monarca","data":
 [
-{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Marmol Dorado","IMG":".\/assets\/Cubierta\/MarmolDorado.webp"}
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Marmol Dorado","IMG":".\/assets\/Cubierta\/MarmolDorado.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Granito Negro 1","IMG":".\/assets\/Cubierta\/Cubierta_negra.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Granito Negro 2","IMG":".\/assets\/Cubierta\/cubierta_negra_1.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Granito","IMG":".\/assets\/Cubierta\/Cubierta_granito.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Lavabo Rampa Mármol","IMG":".\/assets\/Cubierta\/lavabo_rampa.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta de Marmol","IMG":".\/assets\/Cubierta\/Cubierta_marmol.webp"}
 ]
 }
 ,{"type":"table","name":"piedra_bola_marmol","database":"monarca","data":

@@ -53,7 +53,7 @@ const Catalogo=()=>{
         </div>
         <div className="col-span-2 relative flex items-center justify-center p-[1vw]">
             <img src="./assets/Celosías/Portada.png" alt="" loading="lazy"  className="w-[40vw]"/>
-            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 ">CELOSÍAS</span>
+            <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to="/celosías">CELOSÍAS</Link></span>
         </div>
         <div className=" row-start-5  col-start-1 col-span-2 relative flex items-center justify-center p-[1vw]">
             <img src="./assets/Tejas/Portada.jpg" alt="" loading="lazy"  className="w-[40vw]"/>
