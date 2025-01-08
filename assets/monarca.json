@@ -21,7 +21,12 @@
 }
 ,{"type":"table","name":"celosías","database":"monarca","data":
 [
-
+{"NOMBRE":"C1","LARGO":24,"ANCHO":6,"ALTO":13,"PESO":1.7,"PIEZAS":30,"IMG":".\/assets\/Celosías\/c1.webp"},
+{"NOMBRE":"C2","LARGO":24,"ANCHO":6,"ALTO":12,"PESO":1.430,"PIEZAS":32,"IMG":".\/assets\/Celosías\/c2.webp"},
+{"NOMBRE":"C3","LARGO":24,"ANCHO":6,"ALTO":12,"PESO":1.5,"PIEZAS":32,"IMG":".\/assets\/Celosías\/c3.webp"},
+{"NOMBRE":"C5","LARGO":24,"ANCHO":6,"ALTO":13,"PESO":1.6,"PIEZAS":30,"IMG":".\/assets\/Celosías\/c5.webp"},
+{"NOMBRE":"C10","LARGO":19,"ANCHO":8,"ALTO":19,"PESO":2.2,"PIEZAS":25,"IMG":".\/assets\/Celosías\/c10.webp"},
+{"NOMBRE":"C18","LARGO":19,"ANCHO":8,"ALTO":19,"PESO":2.2,"PIEZAS":25,"IMG":".\/assets\/Celosías\/c18.webp"}
 ]
 }
 ,{"type":"table","name":"fachaleta","database":"monarca","data":
@@ -65,22 +70,39 @@
 }
 ,{"type":"table","name":"muro_lloron","database":"monarca","data":
 [
-
+{"NOMBRE":"Muro llorón 1","ALTO":220,"ANCHO":110,"IMG":".\/assets\/Muros_llorones\/Muro_Gris_110.webp"},
+{"NOMBRE":"Muro llorón 2","ALTO":220,"ANCHO":130,"IMG":".\/assets\/Muros_llorones\/Muro_Gris_130.webp"}
 ]
 }
 ,{"type":"table","name":"ovalines","database":"monarca","data":
 [
-{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Marmol Dorado","IMG":".\/assets\/Cubierta\/MarmolDorado.webp"}
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Marmol Dorado","IMG":".\/assets\/Cubierta\/MarmolDorado.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Granito Negro 1","IMG":".\/assets\/Cubierta\/Cubierta_negra.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Granito Negro 2","IMG":".\/assets\/Cubierta\/cubierta_negra_1.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta Granito","IMG":".\/assets\/Cubierta\/Cubierta_granito.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Lavabo Rampa Mármol","IMG":".\/assets\/Cubierta\/lavabo_rampa.webp"},
+{"LARGO":"45","ANCHO":"19","NOMBRE":"Cubierta de Marmol","IMG":".\/assets\/Cubierta\/Cubierta_marmol.webp"}
 ]
 }
 ,{"type":"table","name":"piedra_bola_marmol","database":"monarca","data":
 [
-
+{"NOMBRE":"Bola de colores","MEDIDAS":"1/2 A 3 1/2","IMG":".\/assets\/Piedra_Bola_Marmol\/Bola_de_colores.webp"},
+{"NOMBRE":"Bola rosa","MEDIDAS":"1/2 A 3 1/2","IMG":".\/assets\/Piedra_Bola_Marmol\/bola_rosa.webp"},
+{"NOMBRE":"Bola negra","MEDIDAS":"1/2 A 3 1/2","IMG":".\/assets\/Piedra_Bola_Marmol\/bola_negra.webp"},
+{"NOMBRE":"Bola blanca","MEDIDAS":"1/2 A 3 1/2","IMG":".\/assets\/Piedra_Bola_Marmol\/bola_blanca.webp"},
+{"NOMBRE":"Bola amarilla","MEDIDAS":"1/2 A 3 1/2","IMG":".\/assets\/Piedra_Bola_Marmol\/bola_amarilla.webp"},
+{"NOMBRE":"Bola gris","MEDIDAS":"1/2 A 3 1/2","IMG":".\/assets\/Piedra_Bola_Marmol\/BolaGris.webp"}
 ]
 }
 ,{"type":"table","name":"piedra_laja_irregular","database":"monarca","data":
 [
-
+{"NOMBRE":"Piel de elefante","IMG":".\/assets\/PiedraLaja\/PielDeElefante.webp"},
+{"NOMBRE":"Laja negra","IMG":".\/assets\/PiedraLaja\/negrocarbon.webp"},
+{"NOMBRE":"Madera","IMG":".\/assets\/PiedraLaja\/Madera.webp"},
+{"NOMBRE":"Verde pistache","IMG":".\/assets\/PiedraLaja\/VerdePistache.webp"},
+{"NOMBRE":"Verde militar","IMG":".\/assets\/PiedraLaja\/VerdeMilitar.webp"},
+{"NOMBRE":"Arqueologica","IMG":".\/assets\/PiedraLaja\/Arqueologica.webp"},
+{"NOMBRE":"Diamantada","IMG":".\/assets\/PiedraLaja\/diamantada.webp"}
 ]
 }
 ,{"type":"table","name":"piezas_especiales","database":"monarca","data":
@@ -132,7 +154,7 @@
 {"NOMBRE":"Ala 36 esmaltada/natural","LARGO":19,"ALTO":36,"ESPESOR":1.2,"PIEZAS":18,"PESO":1.4,"IMG":".\/assets\/Tejas\/ALA-36.webp"},
 {"NOMBRE":"Ala 45 esmaltada/natural","LARGO":28,"ALTO":45,"ESPESOR":1.2,"PIEZAS":10,"PESO":3.0,"IMG":".\/assets\/Tejas\/ALA-45.webp"},
 {"NOMBRE":"Media caña","LARGO":16.5,"ALTO":30,"ESPESOR":1.2,"PIEZAS":32,"PESO":1.150,"IMG":".\/assets\/Tejas\/TEJA-MEDIA-CANA.webp"},
-{"NOMBRE":"Recta","LARGO":16.5,"ALTO":30,"ESPESOR":1.2,"PIEZAS":28,"PESO":1.150,"IMG":".\/assets\/Tejas\/TEJA-GUADALAJARA.webp"}
+{"NOMBRE":"Guadalajara","LARGO":16.5,"ALTO":30,"ESPESOR":1.2,"PIEZAS":28,"PESO":1.150,"IMG":".\/assets\/Tejas\/TEJA-GUADALAJARA.webp"}
 ]
 }
 ]
