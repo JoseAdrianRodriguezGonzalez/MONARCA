@@ -32,7 +32,7 @@ const Catalogo=()=>{
             <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to='/Teja_individual'>Tejas individuales</Link></span>
         </div>
         <div className="row-start-4 col-start-1 relative flex items-center justify-center p-[1vw]">
-            <img src="./assets/pegadores/Pegapiedra.png" loading="lazy"  alt="" className="w-[30vw]"/>
+            <img src="./assets/pegadores/Pegapiedra.webp" loading="lazy"  alt="" className="w-[30vw]"/>
             <span className="flex absolute p-[1vw] bg-black rounded-xl  bg-black/70 "><Link to='/adhesivos'>PEGA PIEDRA</Link></span>
         </div>
         <div className="row-start-2 col-start-1 col-span-2 relative flex items-center justify-center p-[1vw]">
